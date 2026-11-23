@@ -6,10 +6,10 @@ alert(finalResult);
 
 /*2. Вибір напою*/
 
-let drinkNumber = Number(prompt("Введіть ноиер обраного напою"));
+let drinkNumber = Number(prompt("Введіть номер обраного напою"));
 switch (drinkNumber) {
   case 1:
-    console.log("Coffe");
+    console.log("Coffee");
     break;
   case 2:
     console.log("Tea");
@@ -54,10 +54,10 @@ for (let i = 1; i <= 10; i++) {
 }
 
 /*6. Робота з рядком*/
-let numberOfLetters = "Демонтсраційний рядок, для підрахунку певної літери.";
+let numberOfLetters = "Demo string, for counting a specific letter.";
 let count = 0;
 for (let i = 0; i < numberOfLetters.length; i++) {
-  if (numberOfLetters[i] === "а") {
+  if (numberOfLetters[i] === "a") {
     count++;
   }
 }
